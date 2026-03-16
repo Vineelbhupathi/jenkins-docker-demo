@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "your-dockerhub-username/jenkins-docker-demo"
+        IMAGE_NAME = "vineelbhupathi/jenkins-docker-demo"
         IMAGE_TAG  = "${BUILD_NUMBER}"
         EC2_HOST   = "your-ec2-public-ip"
     }
